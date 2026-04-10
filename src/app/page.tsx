@@ -18,7 +18,7 @@ import { LineCard } from "@/components/LineCard";
 import { TrendChart } from "@/components/TrendChart";
 import { FaultLog } from "@/components/FaultLog";
 
-const BACKEND_URL = "http://localhost:8000";
+const BACKEND_URL = process.env.NEXT_PUBLIC_API_URL || "http://localhost:8000";
 
 export default function Dashboard() {
   const { updateMetric, addFault, setLines, lines, connected, setConnected } = useLiveStore();
