@@ -29,7 +29,7 @@ export function FaultLog() {
                 animate={{ x: 0, opacity: 1 }}
                 className="border border-red-900/50 p-4 bg-red-950/10 relative group overflow-hidden"
               >
-                <div className="absolute top-0 left-0 w-full h-[1px] bg-red-500/50 animate-pulse" />
+                <div className="absolute top-0 left-0 w-full h-px bg-red-500/50 animate-pulse" />
                 <div className="flex justify-between items-start mb-4">
                   <div>
                     <h4 className="text-xs font-black text-slate-100 uppercase tracking-tight">
